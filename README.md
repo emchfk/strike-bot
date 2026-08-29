@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/emchfk/strike-bot"><img src="docs/img/banner.png" alt="FastAPI"></a>
+  <a href="https://github.com/emchfk/strike-bot"><img src="docs/img/banner.png" alt="strike-bot"></a>
 </p>
 <p align="center">
     <em>Self-hostable python app interacting with the strike.me API</em>
