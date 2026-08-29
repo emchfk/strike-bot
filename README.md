@@ -58,3 +58,69 @@ TODO
 ```
 
 Never commit this file, its contains extremely private data!
+
+## Running as service
+
+### Installation
+
+Copy the main script service file to the following location:
+
+``` bash
+sudo cp .service /etc/systemd/system/strike-bot.service
+```
+
+Reload the systemd configuration:
+
+``` bash
+sudo systemctl daemon-reload
+```
+
+Activate the automatic start when booting:
+
+``` bash
+sudo systemctl enable strike-bot.service
+```
+
+Start the service:
+
+``` bash
+sudo systemctl start strike-bot.service
+```
+
+To check the service status:
+
+``` bash
+sudo systemctl status strike-bot.service
+```
+
+### Logs
+
+To see the logs in real-time:
+
+``` bash
+journalctl -u strike-bot.service -f
+```
+
+To see previous logs:
+
+``` bash
+journalctl -u strike-bot.service
+```
+
+#### Checks
+
+To check the service is active:
+
+``` bash
+sudo systemctl is-active strike-bot.service
+```
+
+This should return *active*.
+
+To check the service is activated at boot:
+
+``` bash
+sudo systemctl is-enabled strike-bot.service
+```
+
+This should return *enabled*.

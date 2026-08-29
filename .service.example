@@ -1,0 +1,15 @@
+[Unit]
+Description=strike-bot
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/path/to/your/local/repo
+ExecStart=/path/to/your/local/repo/.venv/bin/python3 /path/to/your/local/repo/main.py
+Restart=always
+RestartSec=60
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
