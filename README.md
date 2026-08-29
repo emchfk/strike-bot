@@ -22,7 +22,7 @@ TODO
 You need to have:
 
 * [STRIKE](https://strike.me/) account;
-* Active [API](https://docs.strike.me/api-keys/overview) with invoice issuing rights;
+* Active [API](https://docs.strike.me/api-keys/overview) key with invoice issuing rights;
 * Somewhere to host the app (a Raspberry PI for example!);
 * A [PUSHOVER](https://pushover.net/) account, if you want the notifications.
 
