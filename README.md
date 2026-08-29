@@ -3,11 +3,21 @@
     <summary>
         <table>
             <tr>
-            <td><img src="docs/img/strike-logo.png" alt="strike-logo" width="60"></td>
+            <td><img src="docs/img/strike-logo.png" alt="strike-logo" width="100"></td>
             <td><h1>strike-bot</h1></td>
             </tr>
         </table>
         <em>Self-hostable python app interacting with the strike.me API for DCA and automated profit-making</em>
+    </summary>
+  </ul>
+</div>
+
+<div id="toc">
+  <ul align="center" style="list-style: none">
+    <summary>
+      <h1>
+        strike-bot
+      </h1>
     </summary>
   </ul>
 </div>
