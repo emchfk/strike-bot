@@ -1,36 +1,13 @@
-<style>
-    header {
-        display: flex;
-        align-items: center;
-        padding: 20px;
-        justify-content: center;
-    }
-    .logo {
-        margin-right: 20px;
-    }
-    .logo img {
-        max-height: 100px; /* Ajuste la hauteur selon tes besoins */
-    }
-    .title {
-        text-align: center;
-    }
-    .titleh1 {
-        margin: 0;
-        font-size: 40px; /* Ajuste la taille selon tes besoins */
-    }
-</style>
-
-<header>
-<div class="logo" align="center">
-  <img src="docs/img/strike-logo.png" alt="strike-bot">
-</div>
-<div class="title" align="center">
-    <p class="titleh1">strike-bot</p>
-</div>
-</header>
-<p align="center">
+<div align="center">
+    <div style="display: flex; align-items: center; justify-content: center;">
+        <div style="margin-right: 20px;">
+            <img src="docs/img/strike-logo.png" alt="strike-logo" style="max-height: 100px;">
+        </div>
+    <div style="margin: 0; font-size: 40px;">strike-bot</div>
+    </div>
     <em>Self-hostable python app interacting with the strike.me API for DCA and automated profit-making</em>
-</p>
+</div>
+
 
 ## Description
 
