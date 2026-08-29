@@ -1,13 +1,14 @@
-<div align="center">
-    <div style="display: flex; align-items: center; justify-content: center;">
-        <div style="margin-right: 20px;">
-            <img src="docs/img/strike-logo.png" alt="strike-logo" style="max-height: 100px;">
-        </div>
-    <div style="margin: 0; font-size: 40px;">strike-bot</div>
-    </div>
+<div id="user-content-toc" align="center">
+<summary>
+    <table>
+        <tr>
+        <td><img src="docs/img/strike-logo.png" alt="strike-logo" width="60"></td>
+        <td><h1>strike-bot</h1></td>
+        </tr>
+    </table>
     <em>Self-hostable python app interacting with the strike.me API for DCA and automated profit-making</em>
+</summary>
 </div>
-
 
 ## Description
 
