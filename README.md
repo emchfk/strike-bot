@@ -49,7 +49,7 @@ pip install --upgrade pip
 pip list --outdated
 ```
 
-### Setting up environment variables
+### Setting up application parameters
 
 Rename the file *.toml.example* to *.toml* and update the parameters:
 
@@ -57,7 +57,7 @@ Rename the file *.toml.example* to *.toml* and update the parameters:
 TODO
 ```
 
-Never commit this file, its contains extremely private data!
+Never commit this file, it contains extremely private data!
 
 ## Running as service
 
@@ -107,7 +107,7 @@ To see previous logs:
 journalctl -u strike-bot.service
 ```
 
-#### Checks
+### Checks
 
 To check the service is active:
 
